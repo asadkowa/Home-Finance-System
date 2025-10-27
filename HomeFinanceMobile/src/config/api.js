@@ -1,9 +1,12 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-// Use localhost for Android emulator, 10.0.2.2 for Android physical device
+// Configuration for different environments
+// - Use localhost for iOS simulator
+// - Use 10.0.2.2 for Android emulator
+// - Use your computer's IP for physical devices
 const API_BASE_URL = __DEV__
-  ? 'http://localhost:5000/api'
+  ? 'http://192.168.1.10:5000/api'  // Replace with your local IP for physical device
   : 'https://your-production-api.com/api';
 
 const api = axios.create({
