@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "income": "الدخل",
+    "expenses": "المصروفات",
+    "budgets": "الميزانيات",
+    "bills": "الفواتير",
+    "goals": "الأهداف",
+    "debts": "الديون",
+    "reports": "التقارير",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "dateFilter": "النطاق الزمني",
+    "thisWeek": "هذا الأسبوع",
+    "thisMonth": "هذا الشهر",
+    "thisYear": "هذا العام",
+    "allTime": "كل الوقت",
+    "totalIncome": {
+      "title": "إجمالي الدخل"
+    },
+    "totalExpenses": {
+      "title": "إجمالي المصروفات"
+    },
+    "balance": {
+      "title": "الرصيد"
+    },
+    "savingsRate": {
+      "title": "معدل الادخار"
+    },
+    "totalDebt": {
+      "title": "إجمالي الديون"
+    },
+    "minMonthlyPayment": {
+      "title": "الحد الأدنى للدفع الشهري"
+    },
+    "avgInterestRate": {
+      "title": "متوسط معدل الفائدة"
+    },
+    "netSavings": "صافي المدخرات",
+    "expensesByCategory": {
+      "title": "المصروفات حسب الفئة",
+      "noData": "لا توجد بيانات مصروفات متاحة"
+    },
+    "upcomingBills": {
+      "title": "الفواتير القادمة",
+      "dueToday": "مستحقة اليوم",
+      "overdueDays": "متأخرة {{days}} يوم",
+      "daysLeft": "{{days}} يوم متبقي",
+      "noUpcomingBills": "لا توجد فواتير قادمة"
+    },
+    "upcomingBillsWarning": {
+      "title": "لديك فواتير مستحقة قريباً!",
+      "dueInDays": "مستحقة خلال {{days}} يوم"
+    },
+    "activeGoals": "أهداف الادخار النشطة",
+    "activeSavingsGoals": {
+      "title": "أهداف الادخار النشطة",
+      "of": "من",
+      "noActiveGoals": "لا توجد أهداف ادخار نشطة"
+    },
+    "recentTransactions": {
+      "title": "المعاملات الأخيرة",
+      "noRecentTransactions": "لا توجد معاملات حديثة"
+    },
+    "noData": "لا توجد بيانات متاحة"
+  },
+  "income": {
+    "title": "إدارة الدخل",
+    "addIncome": "إضافة دخل",
+    "amount": "المبلغ",
+    "category": "الفئة",
+    "date": "التاريخ",
+    "description": "الوصف",
+    "actions": "الإجراءات",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "noData": "لم يتم العثور على سجلات الدخل",
+    "addNew": "أضف دخلًا جديدًا للبدء"
+  },
+  "expenses": {
+    "title": "إدارة المصروفات",
+    "addExpense": "إضافة مصروف",
+    "amount": "المبلغ",
+    "category": "الفئة",
+    "date": "التاريخ",
+    "description": "الوصف",
+    "actions": "الإجراءات",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "noData": "لم يتم العثور على سجلات المصروفات",
+    "addNew": "أضف مصروفًا جديدًا للبدء"
+  },
+  "bills": {
+    "title": "إدارة الفواتير",
+    "addBill": "إضافة فاتورة",
+    "name": "اسم الفاتورة",
+    "category": "الفئة",
+    "amount": "المبلغ",
+    "dueDate": "تاريخ الاستحقاق",
+    "daysUntilDue": "الأيام حتى الاستحقاق",
+    "status": "الحالة",
+    "autoPaid": "الدفع التلقائي",
+    "actions": "الإجراءات",
+    "noData": "لم يتم إضافة فواتير بعد",
+    "addNew": "انقر على \"إضافة فاتورة\" للبدء"
+  },
+  "goals": {
+    "title": "أهداف الادخار",
+    "createGoal": "إنشاء هدف",
+    "goal": "الهدف",
+    "target": "الهدف",
+    "current": "الحالي",
+    "progress": "التقدم",
+    "targetDate": "تاريخ الهدف",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "noData": "لم يتم إنشاء أهداف بعد",
+    "create": "انقر على \"إنشاء هدف\" للبدء"
+  },
+  "debts": {
+    "title": "إدارة الديون",
+    "addDebt": "إضافة دين",
+    "debtName": "اسم الدين",
+    "type": "النوع",
+    "currentBalance": "الرصيد الحالي",
+    "interestRate": "معدل الفائدة",
+    "minPayment": "الحد الأدنى للدفع",
+    "payoffProgress": "تقدم السداد",
+    "estPayoff": "التقدير للسداد",
+    "actions": "الإجراءات",
+    "noData": "لم يتم تسجيل ديون بعد",
+    "addNew": "انقر على \"إضافة دين\" للبدء"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "categories": "إدارة الفئات",
+    "account": "إعدادات الحساب",
+    "appearance": "المظهر",
+    "language": "اللغة والعرض",
+    "darkMode": "الوضع الداكن",
+    "lightMode": "الوضع الفاتح",
+    "rtlLayout": "التخطيط من اليمين إلى اليسار",
+    "changePassword": "تغيير كلمة المرور",
+    "deleteAccount": "حذف الحساب",
+    "warning": "سيؤدي حذف الحساب إلى إزالة جميع بياناتك بشكل دائم."
+  },
+  "common": {
+    "welcome": "مرحباً",
+    "add": "إضافة",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "update": "تحديث",
+    "close": "إغلاق",
+    "name": "الاسم",
+    "amount": "المبلغ",
+    "date": "التاريخ",
+    "category": "الفئة",
+    "description": "الوصف",
+    "notes": "ملاحظات",
+    "required": "مطلوب",
+    "optional": "اختياري",
+    "confirm": "تأكيد",
+    "success": "نجح",
+    "error": "خطأ",
+    "loading": "جاري التحميل...",
+    "noData": "لا توجد بيانات متاحة",
+    "areYouSure": "هل أنت متأكد؟",
+    "thisActionCannotBeUndone": "لا يمكن التراجع عن هذا الإجراء"
+  }
+}

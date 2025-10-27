@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "income": "Income",
+    "expenses": "Expenses",
+    "budgets": "Budgets",
+    "bills": "Bills",
+    "goals": "Goals",
+    "debts": "Debts",
+    "reports": "Reports",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "dateFilter": "Date Range",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "thisYear": "This Year",
+    "allTime": "All Time",
+    "totalIncome": {
+      "title": "Total Income"
+    },
+    "totalExpenses": {
+      "title": "Total Expenses"
+    },
+    "balance": {
+      "title": "Balance"
+    },
+    "savingsRate": {
+      "title": "Savings Rate"
+    },
+    "totalDebt": {
+      "title": "Total Debt"
+    },
+    "minMonthlyPayment": {
+      "title": "Min. Monthly Payment"
+    },
+    "avgInterestRate": {
+      "title": "Avg. Interest Rate"
+    },
+    "netSavings": "Net Savings",
+    "expensesByCategory": {
+      "title": "Expenses by Category",
+      "noData": "No expenses data available"
+    },
+    "upcomingBills": {
+      "title": "Upcoming Bills",
+      "dueToday": "Due today",
+      "overdueDays": "{{days}} days overdue",
+      "daysLeft": "{{days}} days left",
+      "noUpcomingBills": "No upcoming bills"
+    },
+    "upcomingBillsWarning": {
+      "title": "You have bills due soon!",
+      "dueInDays": "due in {{days}} days"
+    },
+    "activeGoals": "Active Savings Goals",
+    "activeSavingsGoals": {
+      "title": "Active Savings Goals",
+      "of": "of",
+      "noActiveGoals": "No active savings goals"
+    },
+    "recentTransactions": {
+      "title": "Recent Transactions",
+      "noRecentTransactions": "No recent transactions"
+    },
+    "noData": "No data available"
+  },
+  "income": {
+    "title": "Income Management",
+    "addIncome": "Add Income",
+    "amount": "Amount",
+    "category": "Category",
+    "date": "Date",
+    "description": "Description",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "noData": "No income records found",
+    "addNew": "Add new income to get started"
+  },
+  "expenses": {
+    "title": "Expenses Management",
+    "addExpense": "Add Expense",
+    "amount": "Amount",
+    "category": "Category",
+    "date": "Date",
+    "description": "Description",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "noData": "No expense records found",
+    "addNew": "Add new expense to get started"
+  },
+  "bills": {
+    "title": "Bill Management",
+    "addBill": "Add Bill",
+    "name": "Bill Name",
+    "category": "Category",
+    "amount": "Amount",
+    "dueDate": "Due Date",
+    "daysUntilDue": "Days Until Due",
+    "status": "Status",
+    "autoPaid": "Auto-Paid",
+    "actions": "Actions",
+    "noData": "No bills added yet",
+    "addNew": "Click \"Add Bill\" to get started"
+  },
+  "goals": {
+    "title": "Savings Goals",
+    "createGoal": "Create Goal",
+    "goal": "Goal",
+    "target": "Target",
+    "current": "Current",
+    "progress": "Progress",
+    "targetDate": "Target Date",
+    "status": "Status",
+    "actions": "Actions",
+    "noData": "No goals created yet",
+    "create": "Click \"Create Goal\" to get started"
+  },
+  "debts": {
+    "title": "Debts Management",
+    "addDebt": "Add Debt",
+    "debtName": "Debt Name",
+    "type": "Type",
+    "currentBalance": "Current Balance",
+    "interestRate": "Interest Rate",
+    "minPayment": "Min. Payment",
+    "payoffProgress": "Payoff Progress",
+    "estPayoff": "Est. Payoff",
+    "actions": "Actions",
+    "noData": "No debts recorded yet",
+    "addNew": "Click \"Add Debt\" to get started"
+  },
+  "settings": {
+    "title": "Settings",
+    "categories": "Manage Categories",
+    "account": "Account Settings",
+    "appearance": "Appearance",
+    "language": "Language & Display",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "rtlLayout": "Right-to-Left (RTL) Layout",
+    "changePassword": "Change Password",
+    "deleteAccount": "Delete Account",
+    "warning": "Delete account will permanently remove all your data."
+  },
+  "common": {
+    "welcome": "Welcome",
+    "add": "Add",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "update": "Update",
+    "close": "Close",
+    "name": "Name",
+    "amount": "Amount",
+    "date": "Date",
+    "category": "Category",
+    "description": "Description",
+    "notes": "Notes",
+    "required": "Required",
+    "optional": "Optional",
+    "confirm": "Confirm",
+    "success": "Success",
+    "error": "Error",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "areYouSure": "Are you sure?",
+    "thisActionCannotBeUndone": "This action cannot be undone"
+  }
+}
