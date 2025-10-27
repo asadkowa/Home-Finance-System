@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createStackNavigator } from '@react-navigation/stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ActivityIndicator, View, StyleSheet } from 'react-native';
 
@@ -11,7 +11,7 @@ import RegisterScreen from './src/screens/RegisterScreen';
 // Main App Navigator
 import AppNavigator from './src/navigation/AppNavigator';
 
-const Stack = createNativeStackNavigator();
+const Stack = createStackNavigator();
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
